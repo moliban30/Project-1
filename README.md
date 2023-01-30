@@ -1,6 +1,6 @@
 # Project-1
-This is an interactive quiz in the form of well known TV show "Jeopardy" The main purpose of creating this project was to put into light how simple events in our day to day lives require necessary problem solving skills and quick implementation of these skills.
-The problem provided was 2 separate lists made up of "Jeopardy" questions and answers. From there I had to solve this by combining the two lists into a Q&A format shwoing only 8 questions per round and providing a points system that would reward the player after getting a question correct. The points system also based on the value of the question itself meaning the more complex the question the greater the reward.
-During the project I had to implement various components such as different functions which define the different instructions of the game, while and for loops which show the execution of the functions , many different variables to store data and etc.
-The biggest challenge was how to get the main loop function to run according to my while loop command, this had to show the categories for the questions, the current points depending on how many questions the user got correct or wrong and finally to end the game after the maximum amount of questions while displaying the score plus prompting them to play again.
-A lot of insight was gained after completing this project and it shows a cumulation of the basic skills I have learned and how I was able to blend them together to get a functioning program.
+The code is a quiz game where the user is given a choice of three categories and is asked a question from that category.
+The questions, categories and answers are stored in a CSV file. 
+The code consists of functions that read the CSV file and store the data in a list. 
+The code also has functions that randomly select 9 questions from the 3 chosen categories, display the questions on the board, and keep track of used questions. 
+The code returns false when there are no more unused questions.
